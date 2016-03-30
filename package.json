@@ -1,7 +1,7 @@
 {
   "name": "grunt-umi-qiniu",
   "description": "grunt-fis插件，用于将静态文件上传到qiniu服务器",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "http://gitlab.umiit.cn/tool/grunt-umi-qiniu",
   "author": {
     "name": "xiejun",
