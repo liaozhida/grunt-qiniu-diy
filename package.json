@@ -1,0 +1,39 @@
+{
+  "name": "grunt-umi-qiniu",
+  "description": "grunt-fis插件，用于将静态文件上传到qiniu服务器",
+  "version": "2.0.0",
+  "homepage": "http://gitlab.umiit.cn/tool/grunt-umi-qiniu",
+  "author": {
+    "name": "xiejun",
+    "email": "xiejun@umiit.cn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.umiit.cn/tool/grunt-umi-qiniu.git"
+  },
+  "bugs": {
+    "url": "http://gitlab.umiit.cn/tool/grunt-umi-qiniu/issues"
+  },
+  "main": "lib/grunt-umi-qiniu",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-nodeunit": "~1.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "registry": "http://m2.umiit.cn/content/repositories/npm-umi/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "qiniu": "^6.1.9",
+    "request-promise": "^2.0.1"
+  }
+}
